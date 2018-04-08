@@ -1,8 +1,10 @@
 $(document).ready(function() {
 var Trackster = {};
 
+
+
 $('#searchicon').click(function(){
-  console.log('test');
+  console.log($('#textinput').val());
 });
 
 /*

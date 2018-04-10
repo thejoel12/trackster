@@ -73,6 +73,7 @@ h1 {
   font-family: 'Work sans';
   font-size: 1rem;
   color: rgb(74, 74, 74);
+  background-color: white;
 }
 
 .container.trackfill span {
@@ -81,11 +82,18 @@ h1 {
   display: flex;
 }
 
-.container.trackfill a {
-  justify-content: center;
+.row.trackslist {
+  border-top: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  height: 4rem;
   display: flex;
+  align-items: center;
 }
 
-.border {
-  border-top: 1px solid rgb(204, 204, 204);
+.row.trackslist img {
+  padding: .2rem;
+}
+
+.row.trackslist:hover {
+  background-color: rgb(239, 237, 242);
 }
